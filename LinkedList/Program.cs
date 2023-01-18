@@ -22,6 +22,7 @@ namespace LinkedList
             list.Add(56);
             list.Add(70);
             list.InsertAtParticularPosition(2, 30);
+            Console.WriteLine("First element popped out of the Linked List- " + list.RemoveFirstNode().data);
             list.Display();
             Console.ReadLine();
         }

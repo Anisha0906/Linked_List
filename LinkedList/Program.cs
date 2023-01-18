@@ -18,7 +18,10 @@ namespace LinkedList
             list.AppendNode(70);
             list.AppendNode(30);
             list.AppendNode(56);
-            list.Display();
+            list = new Linkedlist();
+            list.Add(56);
+            list.Add(70);
+            list.InsertAtParticularPosition(2, 30);
             list.Display();
             Console.ReadLine();
         }

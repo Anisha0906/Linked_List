@@ -25,7 +25,7 @@ namespace LinkedList
             }
             Console.WriteLine("{0} inserted into the linked list", node.data);
         }
-        internal void Add2(int data)
+        internal void AppendNode(int data)
         {
             Node node = new Node(data);
             if (this.head == null)

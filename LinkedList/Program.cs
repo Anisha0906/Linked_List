@@ -15,9 +15,9 @@ namespace LinkedList
             list.Add(30);
             list.Add(70);
             list = new Linkedlist();
-            list.Add2(70);
-            list.Add2(30);
-            list.Add2(56);
+            list.AppendNode(70);
+            list.AppendNode(30);
+            list.AppendNode(56);
             list.Display();
             list.Display();
             Console.ReadLine();

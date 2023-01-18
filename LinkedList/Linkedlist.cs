@@ -25,6 +25,18 @@ namespace LinkedList
             }
             Console.WriteLine("{0} inserted into the linked list", node.data);
         }
+        internal void Add2(int data)
+        {
+            Node node = new Node(data);
+            if (this.head == null)
+                this.head = node;
+            else
+            {
+                node.next = head;
+                this.head = node;
+            }
+            Console.WriteLine("{0} inserted into the linked list", node.data);
+        }
         internal void Display()
         {
             Node temp = this.head;
